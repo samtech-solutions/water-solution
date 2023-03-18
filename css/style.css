@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 *{
-	margin:1px;
+	margin:0;
 	padding:0;
 	box-sizing:border-box;
 	font-family:'Poppins',san-serif;
@@ -11,7 +11,7 @@ body{
 	align-items:center;
 	height: 400px;
 	min-height:100vh;
-	background-color:rgb(206, 200, 200);
+	background-color:rgba(206, 200, 200);
 	
 }
 .container{

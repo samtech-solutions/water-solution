@@ -1,0 +1,118 @@
+body {
+    height: 100%;
+    background-color: rgb(206, 200, 200);
+}
+
+.container {
+    position: fixed;
+    display: absolute;
+    left: 0px;
+    top: 0px;
+
+}
+
+.container nav {
+    position: relative;
+    width: 100%;
+    background: #8a86a1;
+    box-shadow: 10px 5px 10px #8a86a1, 3px 2px 5px #c7c7dd;
+    margin: 0 10px;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .content {
+    display: flex;
+    align-items: center;
+}
+
+nav .content .links {
+    margin-left: 10px;
+    display: flex;
+
+}
+
+.content .logo a {
+    color: #400e49;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 10px 5px 10px #dfc7e4, 3px 2px 5px #40ca21;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.content .links li {
+    list-style: none;
+    line-height: 40px;
+
+}
+
+.content .links li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 9px 17px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.content .links li a:hover,
+.content .links li label:hover {
+    background: #323c4e;
+}
+
+.user {
+    margin-left: 30px;
+    position: relative;
+    color: blue;
+    text-align: left;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.aside {
+    width: 40%;
+    height: 500px;
+    border:1px dotted white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.aside p{
+    font-size:14px;
+    letter-spacing: 5px;
+    line-height: 2;
+    color:black;
+    margin-left: 4px;
+}
+.aside a{
+    color:white;
+    font-size:18px;
+}
+.image{
+    width:80px;
+    height:130px;
+    margin-left: 160px;
+    background-color: rgb(206, 200, 200);
+    align-items: center;
+}
+.map {
+    width: 60%;
+    height: 500px;
+    margin-top: 20px;
+}
+
+iframe {
+    width: 90%;
+    height: 500px;
+    border: none;
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-right: 20px;
+}
