@@ -13,9 +13,6 @@ $user = $_SESSION['user-email'];
 	</link>
 </head>
 <style>
-	body{
-		background:white;
-	}
 	.main {
 		display: flex;
 		flex-direction: row;
@@ -30,40 +27,49 @@ $user = $_SESSION['user-email'];
 	}
 
 	.image {
-		/*border: 1px solid black;*/
+		border: 1px dotted #459bcd;
+		border-radius: 30px;
 		width: 200px;
 		height: 300px;
 		margin: 20px;
+	}
+	.image:hover {
+		border: 4px dotted #459bcd;
+		
 	}
 
 	img {
 		width: 200px;
 		height: 150px;
+		border-radius: 30px;
 	}
-	h5{
-	  font-size:20px;
-	  color:#459bcd;
-	  margin-top: 0px;
-	  text-align:center;
-	  line-height: 1;
+
+	h5 {
+		font-size: 20px;
+		color: #459bcd;
+		margin-top: 0px;
+		text-align: center;
+		line-height: 1;
 	}
-	p{
-	   margin-top: -20px;
-	   font-size:16px;
-	   color:white;
-	   margin-left:2px;
+
+	p {
+		margin-top: -20px;
+		font-size: 16px;
+		color: white;
+		margin-left: 2px;
 	}
-	.btn{
-		width:100px;
-		font-size:15px;
-		height:30px;
-		color:white;
-		font-weight:bold;
+
+	.btn {
+		width: 100px;
+		font-size: 15px;
+		height: 30px;
+		color: white;
+		font-weight: bold;
 		background: green;
 		border: 2px solid green;
 		border-radius: 30px;
 		margin-left: 40px;
-		
+
 	}
 </style>
 
@@ -89,21 +95,21 @@ $user = $_SESSION['user-email'];
 				<img src="images/guard.png" />
 				<h5>WaterGuard</h5>
 				<p>Use Waterguard to treat your drinking water</p>
-				<button class="btn">Buy</button>
+				<button class="btn" style="margin-top:20px">Buy</button>
 			</div>
 
 			<div class="image">
 				<img src="images/truck.png" />
 				<h5>Water Buzzer</h5>
 				<p>We deliver clean water to your door step</p>
-				<button class="btn">Call now</button>
+				<button class="btn" style="margin-top:20px">Call now</button>
 			</div>
 
 			<div class="image">
 				<img src="images/tank.png" />
 				<h5>Water Tanks</h5>
 				<p>When its raining store roof water to be used later.</p>
-				<button class="btn">Buy</button>
+				<button class="btn" style="margin-top:20px">Buy</button>
 			</div>
 
 			<div class="image">
