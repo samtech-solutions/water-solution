@@ -13,7 +13,11 @@ $user = $_SESSION['user-email'];
 	</link>
 </head>
 <style>
-
+.main{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+}
 </style>
 
 <body onload="getLocation();">
@@ -33,29 +37,10 @@ $user = $_SESSION['user-email'];
 		</nav>
 		<section class="main">
 			<div class="aside">
-
-				<p>Fresh and clean water is a basic need for all.</p>
-
-				<p>Help us identify any source of fresh water.</p>
-
-				<p>Go to <a href="markers/user-map.php">Map source</a> and pin the
-					location by giving that area a suitable Name that other people will
-					easily access the source by .</p>
-				<p>Our sources will be identifies by this icon "Red icon".</p>
 				<div class="image"><img src="images/bigred.png" /></div>
 			</div>
-			<div class="map">
-				<?php
-				require 'db.php';
+			<div class="aside">
 
-				$rows = mysqli_query($connection, "SELECT * FROM users WHERE email ='$user'");
-
-				foreach ($rows as $row) :
-				?>
-
-					<iframe src="https://maps.google.com/maps?q=<?php echo $row['latitude']; ?>,<?php echo $row['longitude']; ?>&hl=es;z=14&output=embed"></iframe>
-
-				<?php endforeach; ?>
 			</div>
 		</section>
 	</div>
