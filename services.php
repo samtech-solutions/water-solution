@@ -13,6 +13,9 @@ $user = $_SESSION['user-email'];
 	</link>
 </head>
 <style>
+	body{
+		background:white;
+	}
 	.main {
 		display: flex;
 		flex-direction: row;
@@ -27,15 +30,40 @@ $user = $_SESSION['user-email'];
 	}
 
 	.image {
-		border: 1px solid black;
-		width: 150px;
+		/*border: 1px solid black;*/
+		width: 200px;
 		height: 300px;
-		margin: 30px;
+		margin: 20px;
 	}
 
 	img {
-		width: 150px;
+		width: 200px;
 		height: 150px;
+	}
+	h5{
+	  font-size:20px;
+	  color:#459bcd;
+	  margin-top: 0px;
+	  text-align:center;
+	  line-height: 1;
+	}
+	p{
+	   margin-top: -20px;
+	   font-size:16px;
+	   color:white;
+	   margin-left:2px;
+	}
+	.btn{
+		width:100px;
+		font-size:15px;
+		height:30px;
+		color:white;
+		font-weight:bold;
+		background: green;
+		border: 2px solid green;
+		border-radius: 30px;
+		margin-left: 40px;
+		
 	}
 </style>
 
@@ -61,24 +89,28 @@ $user = $_SESSION['user-email'];
 				<img src="images/guard.png" />
 				<h5>WaterGuard</h5>
 				<p>Use Waterguard to treat your drinking water</p>
+				<button class="btn">Buy</button>
 			</div>
 
 			<div class="image">
 				<img src="images/truck.png" />
-				<h5>WaterGuard</h5>
-				<p>Use Waterguard to treat your drinking water</p>
+				<h5>Water Buzzer</h5>
+				<p>We deliver clean water to your door step</p>
+				<button class="btn">Call now</button>
 			</div>
 
 			<div class="image">
 				<img src="images/tank.png" />
-				<h5>WaterGuard</h5>
-				<p>Use Waterguard to treat your drinking water</p>
+				<h5>Water Tanks</h5>
+				<p>When its raining store roof water to be used later.</p>
+				<button class="btn">Buy</button>
 			</div>
 
 			<div class="image">
 				<img src="images/driller.jpg" />
-				<h5>WaterGuard</h5>
-				<p>Use Waterguard to treat your drinking water</p>
+				<h5>Borehole Drilling</h5>
+				<p>To sustain water availability. Drill underground water for use by the community. </p>
+				<button class="btn">Call now</button>
 			</div>
 		</section>
 	</div>
