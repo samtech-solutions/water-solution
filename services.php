@@ -36,11 +36,12 @@ $user = $_SESSION['user-email'];
 			</div>
 		</nav>
 		<section class="main">
-			<div class="aside">
-				<div class="image"><img src="images/bigred.png" /></div>
+			<h2>OUR SERVICES</h2>
+			<div class="image">
+				<img src="images/bigred.png" />
 			</div>
-			<div class="aside">
-
+			<div class="image">
+			 <img src="images/bigred.png" />
 			</div>
 		</section>
 	</div>
