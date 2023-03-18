@@ -134,7 +134,7 @@ include 'locations_model.php';
                 var manual_marker = markers[markerId]; // find marker
                 manual_marker.setIcon(purple_icon);
                 infowindow.close();
-                infowindow.setContent("<div style=' color: green; font-size: 25px;'> Waiting for admin to confirm!!</div>");
+                infowindow.setContent("<div style=' color: red; font-size: 25px;'> Waiting for admin to confirm!!</div>");
                 infowindow.open(map, manual_marker);
 
             } else {
