@@ -17,7 +17,6 @@
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
   margin:auto;
-  
 }
 
 @-webkit-keyframes spin {
