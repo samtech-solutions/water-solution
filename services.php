@@ -58,8 +58,7 @@ $user = $_SESSION['user-email'];
 		color: white;
 		margin-left: 2px;
 	}
-
-	.btn {
+   .btn {
 		width: 100px;
 		font-size: 15px;
 		height: 30px;
