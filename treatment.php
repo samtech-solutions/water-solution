@@ -13,7 +13,15 @@ $user = $_SESSION['user-email'];
 	</link>
 </head>
 <style>
+ img {
+        width: 400px;
+        height: 500px;
+        background:black;
+    }
 
+    .image {
+        margin-left: 0;
+    }
 </style>
 
 <body onload="getLocation();">
@@ -33,16 +41,7 @@ $user = $_SESSION['user-email'];
 		</nav>
 		<section class="main">
 			<div class="aside">
-
-				<p>Fresh and clean water is a basic need for all.</p>
-
-				<p>Help us identify any source of fresh water.</p>
-
-				<p>Go to <a href="markers/user-map.php">Map source</a> and pin the
-					location by giving that area a suitable Name that other people will
-					easily access the source by .</p>
-				<p>Our sources will be identifies by this icon "Red icon".</p>
-				<div class="image"><img src="images/bigred.png" /></div>
+				<div class="image"><img src="images/tap.png" /></div>
 			</div>
 			<div class="map">
 				<?php
