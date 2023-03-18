@@ -5,7 +5,7 @@ include 'locations_model.php';
 ?>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?language=en&key=AIzaSyCokvONe6YunLElrqWDWWTE8GIMPlUlHek">
 </script>
-<div id="map" style="width:300px"></div>
+<div id="map"></div>
 
 <script>
     /**
