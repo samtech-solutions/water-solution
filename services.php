@@ -13,11 +13,14 @@ $user = $_SESSION['user-email'];
 	</link>
 </head>
 <style>
-.main{
-	display:flex;
-	flex-direction:column;
-	justify-content: center;
-}
+	.main {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.image{
+		border:1px solid black;
+	}
 </style>
 
 <body onload="getLocation();">
@@ -35,13 +38,23 @@ $user = $_SESSION['user-email'];
 				<div class="user"> Welcome back: <?php echo $user; ?></div>
 			</div>
 		</nav>
+		<h2>OUR SERVICES</h2>
 		<section class="main">
-			<h2>OUR SERVICES</h2>
+
 			<div class="image">
 				<img src="images/bigred.png" />
 			</div>
+
 			<div class="image">
-			 <img src="images/bigred.png" />
+				<img src="images/bigred.png" />
+			</div>
+
+			<div class="image">
+				<img src="images/bigred.png" />
+			</div>
+
+			<div class="image">
+				<img src="images/bigred.png" />
 			</div>
 		</section>
 	</div>
