@@ -18,21 +18,24 @@ $user = $_SESSION['user-email'];
 		flex-direction: row;
 		justify-content: center;
 	}
-	h2{
-		text-align:center;
+
+	h2 {
+		text-align: center;
 		color: #459bcd;
 		letter-spacing: 20px;
-		line-height: 4;
+		line-height: 2;
 	}
-	.image{
-		border:1px solid black;
-		width:150px;
-		height:150px;
-		margin:30px;
+
+	.image {
+		border: 1px solid black;
+		width: 150px;
+		height: 300px;
+		margin: 30px;
 	}
-	img{
-		width:100%;
-		height:100%;
+
+	img {
+		width: 150px;
+		height: 150px;
 	}
 </style>
 
@@ -56,18 +59,26 @@ $user = $_SESSION['user-email'];
 
 			<div class="image">
 				<img src="images/guard.png" />
+				<h5>WaterGuard</h5>
+				<p>Use Waterguard to treat your drinking water</p>
 			</div>
 
 			<div class="image">
 				<img src="images/truck.png" />
+				<h5>WaterGuard</h5>
+				<p>Use Waterguard to treat your drinking water</p>
 			</div>
 
 			<div class="image">
 				<img src="images/tank.png" />
+				<h5>WaterGuard</h5>
+				<p>Use Waterguard to treat your drinking water</p>
 			</div>
 
 			<div class="image">
 				<img src="images/driller.jpg" />
+				<h5>WaterGuard</h5>
+				<p>Use Waterguard to treat your drinking water</p>
 			</div>
 		</section>
 	</div>
