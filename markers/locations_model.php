@@ -9,8 +9,6 @@ if(isset($_GET['confirm_location'])) {
     confirm_location();
 }
 
-
-
 function add_location(){
     $con=mysqli_connect ("localhost", 'root', '','locations');
     if (!$con) {
@@ -55,8 +53,8 @@ function get_confirmed_locations(){
     }
     // update location with location_status if admin location_status.
     $sqldata = mysqli_query($con,"
-select id ,lat,lng,description,location_status as isconfirmed
-from locations WHERE  location_status = 1
+    select id ,lat,lng,description,location_status as isconfirmed
+    from locations WHERE  location_status = 1
   ");
 
     $rows = array();
