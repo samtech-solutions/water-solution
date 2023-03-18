@@ -34,7 +34,7 @@ $user = $_SESSION['user-email'];
 		margin: 20px;
 	}
 	.image:hover {
-		border: 4px dotted #459bcd;
+		border: 2px dotted red;
 		
 	}
 
@@ -69,7 +69,11 @@ $user = $_SESSION['user-email'];
 		border: 2px solid green;
 		border-radius: 30px;
 		margin-left: 40px;
-
+	}
+	.btn:hover {
+		background: red;
+		font-size: 16px;
+		border: 2px solid red;
 	}
 </style>
 
