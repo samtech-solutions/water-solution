@@ -5,7 +5,6 @@ $user = $_SESSION['user-email'];
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
 <head>
 	<meta charset="utf-8">
 	<title>user map page</title>
@@ -21,10 +20,8 @@ $user = $_SESSION['user-email'];
 		display: absolute;
 		left: 0px;
 		top: 0px;
-
 	}
-
-	.container nav {
+    .container nav {
 		position: relative;
 		max-width: 100%;
 		background: #8a86a1;
