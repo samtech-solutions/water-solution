@@ -1,0 +1,9 @@
+.container nav {
+    position: relative;
+    max-width: 100%;
+    background: #40ca21;
+    margin: 0 10px;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}

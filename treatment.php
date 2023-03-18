@@ -21,7 +21,7 @@ $user = $_SESSION['user-email'];
 	<div class="container">
 		<nav>
 			<div class="content">
-				<div class="logo"><a href="index.php">MAJI_SAFI</a></div>
+				<div class="logo"><a href="map.php">MAJI_SAFI</a></div>
 				<ul class="links">
 					<li><a href="markers/user-map.php">Map_source</a></li>
 					<li><a href="markers/user-map.php">Water_Centers</a></li>
