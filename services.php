@@ -30,6 +30,10 @@ $user = $_SESSION['user-email'];
 		height:150px;
 		margin:30px;
 	}
+	img{
+		width:100%;
+		height:100%;
+	}
 </style>
 
 <body onload="getLocation();">
@@ -51,19 +55,19 @@ $user = $_SESSION['user-email'];
 		<section class="main">
 
 			<div class="image">
-				<img src="images/bigred.png" />
+				<img src="images/guard.png" />
 			</div>
 
 			<div class="image">
-				<img src="images/bigred.png" />
+				<img src="images/truck.png" />
 			</div>
 
 			<div class="image">
-				<img src="images/bigred.png" />
+				<img src="images/tank.png" />
 			</div>
 
 			<div class="image">
-				<img src="images/bigred.png" />
+				<img src="images/driller.jpg" />
 			</div>
 		</section>
 	</div>
