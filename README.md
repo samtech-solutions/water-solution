@@ -3,7 +3,7 @@
 #A user will Map an area will clean water in our map
 #An admin will confirm the location mapped
 #users will be able to see and locate where clean water is available
-
+#Create a database 'locations' and import locations.sql file 
 #login details for demo only emails not valified.
 Admin:
 email:    admin@admin.com
